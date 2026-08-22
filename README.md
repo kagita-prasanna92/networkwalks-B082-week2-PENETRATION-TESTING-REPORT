@@ -117,3 +117,7 @@ Based on the findings from the footprinting and network scanning exercises, the 
 | ⚖️ Authorized Testing |	Conduct reconnaissance and scanning only on systems and networks for which permission has been granted |	Ensures security testing is performed safely, legally, and ethically
 
 ---
+
+## 🖥️ **Overall Recommendation**
+
+Regular asset discovery, software maintenance, configuration review, and authorized security testing should be incorporated into the organization's security practices. These measures can help reduce unnecessary exposure and improve overall network visibility and security
