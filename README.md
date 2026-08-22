@@ -72,7 +72,7 @@ Based on the information gathered during the footprinting and network scanning a
  ---
  
 | Risk / Finding            | Evidence / Observation   | Potential Impact   |  Risk Level  |
-| ------------------ | ---------------------------------------------------------------------------------------------  |
+| ------------------        | ------------------------------  |  ------------------------------ |  ------------------------------ |
 | Web technology information exposed         | WhatWeb identified WordPress and WP Download Manager | Exposed technology details may help attackers identify software that requires further security assessment | ● Medium |
 | Server IP address identifiable             | Nslookup resolved the domain to 192.xxx.xxx.x | Reveals the network location of the web service and may assist further reconnaissance  |  ● Low  |
 | HTTP technical information exposed         | Curl displayed HTTP response headers and the /wp-json/ endpoint | This information may assist technology fingerprinting and additional enumeration  | ● Low   |
