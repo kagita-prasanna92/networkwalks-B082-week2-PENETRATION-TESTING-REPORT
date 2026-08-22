@@ -93,3 +93,26 @@ Based on the information gathered during the footprinting and network scanning a
 **Assessment Note**
 
 The findings above represent observations from the footprinting and network discovery exercises rather than confirmed vulnerabilities. The activities focused primarily on information gathering and host identification; no exploitation or vulnerability validation was performed
+
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/dd2cbf48-450f-4785-9a6f-ae52908ef42b" />
+
+
+**Security Recommendations**:
+
+Based on the findings from the footprinting and network scanning exercises, the following security measures are recommended:
+
+---
+
+| Area                      |	Recommended Action                | 	Security Benefit            |
+| ------------------        | ------------------------------  | ------------------------------ |
+| 🌐 Technology Exposure	Review | publicly visible information about CMS platforms, plugins, and web technologies.	Reduces unnecessary information available for reconnaissance.
+| 🔄 Software Updates |	Keep WordPress, plugins, and other web components updated and monitor relevant security advisories.	Helps reduce risks associated with known vulnerabilities.
+| 📡 HTTP Headers |	Review HTTP response headers and remove unnecessary technical information where appropriate.	Limits unnecessary server and application information disclosure.
+| 🗂️ DNS Security |	Periodically review DNS records and remove outdated or unnecessary entries.	Reduces exposure of unnecessary infrastructure details.
+| 🛡️ WAF Protection |	Keep ModSecurity properly configured, updated, and monitored.	Provides an additional layer of protection against common web attacks.
+| 🖥️ Network Monitoring |	Perform regular authorized scans of the internal network.	Helps maintain visibility of active devices and network changes.
+| 🔍 Unknown Devices |	Investigate and verify any unexpected hosts discovered during network scans.	Helps identify potentially unauthorized devices.
+| 🗺️ Network Documentation |	Maintain an up-to-date record of network devices, IP addresses, and topology.	Improves network management and incident response.
+| ⚖️ Authorized Testing |	Conduct reconnaissance and scanning only on systems and networks for which permission has been granted.	Ensures security testing is performed safely, legally, and ethically
+
+---
