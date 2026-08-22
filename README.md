@@ -121,3 +121,14 @@ Based on the findings from the footprinting and network scanning exercises, the 
 ## 🖥️ **Overall Recommendation**
 
 Regular asset discovery, software maintenance, configuration review, and authorized security testing should be incorporated into the organization's security practices. These measures can help reduce unnecessary exposure and improve overall network visibility and security
+
+## 🕵️ **Conclusion**
+During Week 2 of my Cybersecurity & Ethical Hacking internship, I completed practical exercises focused on footprinting, reconnaissance, and network scanning. These activities helped me understand how security professionals gather information about web applications and network environments before conducting further security assessments.
+
+As part of the footprinting activity, I used WHOIS, WhatWeb, Nslookup, Curl, Wafw00f, and DNSRecon to collect information about the target domain. Each tool provided a different perspective, including domain registration details, web technologies, IP addresses, HTTP headers, WAF information, and DNS records.
+
+For the network scanning activity, I used Zenmap to discover active hosts on my local network, identify IP and MAC addresses, and visualize the network topology. This provided practical experience in understanding how devices can be identified and mapped within a network.
+
+Overall, these exercises demonstrated that reconnaissance and information gathering are fundamental stages of cybersecurity assessment. Seemingly small pieces of information can collectively provide a useful understanding of an environment and its potential exposure. I also learned the importance of accurately documenting commands, observations, evidence, risks, and recommendations in a professional security report.
+
+Most importantly, I understood that all reconnaissance and scanning activities must be conducted within an authorized scope and for legitimate security purposes. Completing these exercises strengthened my practical knowledge of cybersecurity tools and improved my ability to analyze and report security-related findings responsibly.
