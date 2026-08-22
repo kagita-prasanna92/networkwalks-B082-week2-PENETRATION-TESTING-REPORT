@@ -28,21 +28,21 @@ This report presents the Week 2 activities of my internship at Networkwalks, foc
 
 I conducted a reconnaissance assessment of the networkwalks.com domain using six Kali Linux tools: WHOIS, WhatWeb, Nslookup, Curl, Wafw00f, and DNSRecon. Each tool was used to gather a specific type of publicly available information about the target
 
-WHOIS: Used to collect domain registration details and identify the associated name servers
+**WHOIS:** Used to collect domain registration details and identify the associated name servers
 
-WhatWeb: Used to identify the technologies and frameworks used by the website. The scan identified WordPress 7.0.4 and WP Download Manager 3.3.58.
+**WhatWeb:** Used to identify the technologies and frameworks used by the website. The scan identified WordPress 7.0.4 and WP Download Manager 3.3.58.
 
-Nslookup: Used to perform DNS resolution and identify the IP address associated with the domain. The result returned 192.232.216.135
+**Nslookup:** Used to perform DNS resolution and identify the IP address associated with the domain. The result returned 192.232.216.135
 
-Curl: Used to examine the website's HTTP response headers and identify information returned by the web server
+**Curl:** Used to examine the website's HTTP response headers and identify information returned by the web server
 
-Wafw00f: Used to determine whether a Web Application Firewall (WAF) is protecting the website
+**Wafw00f:** Used to determine whether a Web Application Firewall (WAF) is protecting the website
 
-DNSRecon: Used to gather available DNS records and identify additional information about the domain's DNS infrastructure
+**DNSRecon:** Used to gather available DNS records and identify additional information about the domain's DNS infrastructure
 
-Curl (-I): I analyzed the HTTP response headers to gather information about the web server and application. The results also revealed the WordPress REST API endpoint /wp-json/
+**Curl (-I):** I analyzed the HTTP response headers to gather information about the web server and application. The results also revealed the WordPress REST API endpoint /wp-json/
 
-Wafw00f: I checked the target for the presence of a Web Application Firewall. The scan identified ModSecurity (SpiderLabs) as the detected WAF
+**Wafw00f:** I checked the target for the presence of a Web Application Firewall. The scan identified ModSecurity (SpiderLabs) as the detected WAF
 
 DNSRecon: I performed DNS enumeration to collect available DNS information, including name servers, mail servers, SPF/TXT records, service records, and DNS software details
 
