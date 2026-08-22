@@ -64,3 +64,26 @@ Network Topology: Finally, the Topology section of Zenmap was opened to visually
 
 <img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/6f2bd968-2240-4e74-98ff-39b2b902ff93" />
 
+
+## 🕵️ **Risk Analysis / Impact**
+
+Based on the information gathered during the footprinting and network scanning activities, the following potential security risks were identified:
+
+#	Risk / Finding	Evidence / Observation	Potential Impact	Risk Level
+1	Web technology information exposed	WhatWeb identified WordPress and WP Download Manager.	Exposed technology details may help attackers identify software that requires further security assessment.	● Medium
+2	Server IP address identifiable	Nslookup resolved the domain to 192.232.216.135.	Reveals the network location of the web service and may assist further reconnaissance.	● Low
+3	HTTP technical information exposed	Curl displayed HTTP response headers and the /wp-json/ endpoint.	This information may assist technology fingerprinting and additional enumeration.	● Low
+4	WAF technology identifiable	Wafw00f detected ModSecurity (SpiderLabs).	Reveals information about the security mechanisms used by the web application.	● Low
+5	DNS infrastructure information exposed	DNSRecon identified DNS, mail, and service-related records.	DNS information can help build a broader picture of the organization's infrastructure.	● Medium
+6	Multiple live hosts discovered	Zenmap identified four live hosts on the example local network.	Unrecognized or unauthorized devices could increase the network's potential attack surface.	● Medium
+
+## 🔑 Risk Level Key
+
+🔴 Critical — Severe potential impact
+🟠 Medium — Moderate potential impact
+🟢 Low — Limited potential impact
+
+
+**Assessment Note**
+
+The findings above represent observations from the footprinting and network discovery exercises rather than confirmed vulnerabilities. The activities focused primarily on information gathering and host identification; no exploitation or vulnerability validation was performed
