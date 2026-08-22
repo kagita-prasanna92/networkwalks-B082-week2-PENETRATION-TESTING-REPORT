@@ -135,6 +135,12 @@ Most importantly, I understood that all reconnaissance and scanning activities m
 
 ## 📁 **Evidences Collected**
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/09722511-7796-479f-9004-887ca04dfa1b" />
+<img width="1359" height="636" alt="Screenshot 2026-08-22 144343" src="https://github.com/user-attachments/assets/ecb48550-a574-4751-adf2-d41405694e8f" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a993d78e-92a9-4be5-965d-0b775bb92350" />
+<img width="1116" height="654" alt="image" src="https://github.com/user-attachments/assets/8f76949c-1e4b-4f9a-a3f3-d942b7cd93f0" />
+<img width="972" height="259" alt="image" src="https://github.com/user-attachments/assets/62a80566-e3ef-42a8-9b5b-5c829e6b1cff" />
+
+
 
 
 
