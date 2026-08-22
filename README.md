@@ -132,3 +132,12 @@ For the network scanning activity, I used Zenmap to discover active hosts on my 
 Overall, these exercises demonstrated that reconnaissance and information gathering are fundamental stages of cybersecurity assessment. Seemingly small pieces of information can collectively provide a useful understanding of an environment and its potential exposure. I also learned the importance of accurately documenting commands, observations, evidence, risks, and recommendations in a professional security report.
 
 Most importantly, I understood that all reconnaissance and scanning activities must be conducted within an authorized scope and for legitimate security purposes. Completing these exercises strengthened my practical knowledge of cybersecurity tools and improved my ability to analyze and report security-related findings responsibly.
+
+## 📁 **Evidences Collected**
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/09722511-7796-479f-9004-887ca04dfa1b" />
+
+
+
+
+
+
