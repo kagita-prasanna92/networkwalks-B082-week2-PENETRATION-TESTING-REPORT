@@ -68,16 +68,20 @@ Network Topology: Finally, the Topology section of Zenmap was opened to visually
 ## 🕵️ **Risk Analysis / Impact**
 
 Based on the information gathered during the footprinting and network scanning activities, the following potential security risks were identified:
+ 
+ ---
+ 
+| Risk / Finding            | Evidence / Observation   | Potential Impact   |  Risk Level  |
+| ------------------ | ---------------------------------------------------------------------------------------------  |
+| Web technology information exposed         | WhatWeb identified WordPress and WP Download Manager | Exposed technology details may help attackers identify software that requires further security assessment | ● Medium |
+| Server IP address identifiable             | Nslookup resolved the domain to 192.xxx.xxx.x | Reveals the network location of the web service and may assist further reconnaissance  |  ● Low  |
+| HTTP technical information exposed         | Curl displayed HTTP response headers and the /wp-json/ endpoint | This information may assist technology fingerprinting and additional enumeration  | ● Low   |
+| WAF technology identifiable               | Wafw00f detected ModSecurity (SpiderLabs)   | Reveals information about the security mechanisms used by the web application | ● Low  |
+| DNS infrastructure information exposed     | DNSRecon identified DNS, mail, and service-related records   | DNS information can help build a broader picture of the organization's infrastructure  | ● Medium  |
+| Multiple live hosts discovered  | Zenmap identified four live hosts on the example local network     | Unrecognized or unauthorized devices could increase the network's potential attack surface  | ● Medium  |
 
 ---
 
-|	Risk & Finding	|Evidence & Observation  |	Potential Impact	| Risk Level |
-|	Web technology information exposed |	WhatWeb identified WordPress and WP Download Manager |	Exposed technology details may help attackers identify software that requires further security assessment|	● Medium |
-2	Server IP address identifiable	Nslookup resolved the domain to 192.232.216.135.	Reveals the network location of the web service and may assist further reconnaissance.	● Low
-3	HTTP technical information exposed	Curl displayed HTTP response headers and the /wp-json/ endpoint.	This information may assist technology fingerprinting and additional enumeration.	● Low
-4	WAF technology identifiable	Wafw00f detected ModSecurity (SpiderLabs).	Reveals information about the security mechanisms used by the web application.	● Low
-5	DNS infrastructure information exposed	DNSRecon identified DNS, mail, and service-related records.	DNS information can help build a broader picture of the organization's infrastructure.	● Medium
-6	Multiple live hosts discovered	Zenmap identified four live hosts on the example local network.	Unrecognized or unauthorized devices could increase the network's potential attack surface.	● Medium
 
 ## 🔑 Risk Level Key
 
