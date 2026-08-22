@@ -59,7 +59,7 @@ Live Hosts: The scan identified four active hosts:
 
 10.0.0.1/24
 
-MAC Address Identification: Zenmap also displayed the corresponding MAC addresses of the discovered hosts.
+**MAC Address Identification:** Zenmap also displayed the corresponding MAC addresses of the discovered hosts.
 Network Topology: Finally, the Topology section of Zenmap was opened to visually represent the discovered network devices and their relationships
 
 <img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/6f2bd968-2240-4e74-98ff-39b2b902ff93" />
