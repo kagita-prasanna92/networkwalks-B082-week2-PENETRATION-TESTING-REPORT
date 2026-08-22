@@ -32,7 +32,7 @@ I conducted a reconnaissance assessment of the networkwalks.com domain using six
 
 **WhatWeb:** Used to identify the technologies and frameworks used by the website. The scan identified WordPress 7.0.4 and WP Download Manager 3.3.58.
 
-**Nslookup:** Used to perform DNS resolution and identify the IP address associated with the domain. The result returned 192.232.216.135
+**Nslookup:** Used to perform DNS resolution and identify the IP address associated with the domain. The result returned 192.xxx.xxx.xxx
 
 **Curl:** Used to examine the website's HTTP response headers and identify information returned by the web server
 
@@ -48,4 +48,19 @@ DNSRecon: I performed DNS enumeration to collect available DNS information, incl
 
 
 ## 🔍 **Network Scanning with Zenmap**
+
+The second activity focused on network discovery using Zenmap within my local network. The objective was to determine the local network configuration, identify active devices, collect their IP and MAC addresses, and visualize the network structure.
+
+The process was completed in the following stages:
+
+Network Configuration: The Windows ipconfig command was used to obtain the system's local IP address and subnet information.
+Host Discovery: The identified subnet was entered into Zenmap, and the Ping Scan option was selected to locate active devices.
+Live Hosts: The scan identified four active hosts:
+
+10.0.0.1/24
+
+MAC Address Identification: Zenmap also displayed the corresponding MAC addresses of the discovered hosts.
+Network Topology: Finally, the Topology section of Zenmap was opened to visually represent the discovered network devices and their relationships
+
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/6f2bd968-2240-4e74-98ff-39b2b902ff93" />
 
